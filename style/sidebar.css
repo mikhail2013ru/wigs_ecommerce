@@ -1,0 +1,48 @@
+.sidebar {
+    max-width: 252px;
+    width: 100%;
+    height: 100vh;
+    padding: 51px 42px 59px 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__logo {
+    margin-bottom: 57px;
+}
+
+.sidebar__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 46px;
+    margin-bottom: 44px;
+}
+
+.sidebar__list-item:not(:last-child) {
+    margin-bottom: 27px;
+}
+
+.sidebar__link-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__icon {
+    width: 26px;
+    object-fit: none;
+    margin-right: 12px;
+}
+
+.sidebar__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.sidebar__help-link {
+    margin-top: auto;
+}
+
+.sidebar__icon-footer {
+    margin-right: 17px;
+}
