@@ -5,6 +5,10 @@
     padding: 51px 42px 59px 56px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .sidebar__logo {
@@ -22,6 +26,10 @@
     margin-bottom: 27px;
 }
 
+.sidebar__link:hover {
+    color: var(--red);
+}
+
 .sidebar__link-wrap {
     display: flex;
     align-items: center;
@@ -33,14 +41,19 @@
     margin-right: 12px;
 }
 
-.sidebar__link {
+.sidebar__link-text {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    transition: 0.5s;
 }
 
 .sidebar__help-link {
     margin-top: auto;
+}
+
+.sidebar__help-link:hover {
+    color: var(--red);
 }
 
 .sidebar__icon-footer {
