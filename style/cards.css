@@ -36,11 +36,12 @@
 
 .cards__sale-svg {
     stroke: var(--color-text);
+    fill: none;
 }
 
-.cards__sale-wrapper:active .cards__sale-svg {
+.cards__sale-wrapper:focus .cards__sale-svg {
     fill: var(--red);
-    stroke: var(--red);
+    stroke: var(--red);    
 }
 
 .cards__column {
@@ -91,6 +92,11 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in;
+}
+
+.cards__sale:hover {
+    transform: translateY(-5px);
 }
 
 .cards__title {
