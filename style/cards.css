@@ -34,9 +34,21 @@
     top: 20px;
 }
 
+.cards__row-wrapper:hover .cards__sale-wrapper {
+    transform: translateY(-5px);
+    transition: all 0.2s ease-in;
+}
+
 .cards__sale-svg {
     stroke: var(--color-text);
     fill: none;
+}
+
+.cards__sal {
+    height: 350px;
+    width: 237px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cards__sale-wrapper:focus .cards__sale-svg {

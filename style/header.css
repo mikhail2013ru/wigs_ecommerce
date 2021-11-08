@@ -34,11 +34,17 @@
     font-size: 17px;
     line-height: 22px;
     flex-basis: 100%;
+    padding-left: 5px;
 }
 
 .header__search-input:focus-visible {
     outline: none;
 }
+
+/* .header__search-input:active,
+.header__search-input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+} */
 
 .header__search-input::placeholder {
     opacity: 0.2;
